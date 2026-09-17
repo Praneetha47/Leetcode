@@ -7,7 +7,8 @@ class Solution {
             if (x % 2 == 0) {
                 ans[even] = x;
                 even += 2;
-            } else {
+            } 
+            else {
                 ans[odd] = x;
                 odd += 2;
             }
